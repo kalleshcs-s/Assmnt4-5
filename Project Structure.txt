@@ -1,0 +1,23 @@
+terraform-advanced/
+│
+├── backend.tf
+├── providers.tf
+├── variables.tf
+├── main.tf
+├── outputs.tf
+│
+├── modules/
+│   └── ec2/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       └── README.md
+│
+├── ci-cd/
+│   └── github-actions.yml
+│
+├── tests/
+│   └── terraform_test.sh
+│
+└── policies/
+    └── no-public-sg.rego
